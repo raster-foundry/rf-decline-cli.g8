@@ -1,9 +1,8 @@
-A [Giter8][g8] template for ...!
+A [Giter8][g8] template for creating CLIs with decline and the Raster Foundry datamodel
 
 Template license
 ----------------
-Written in <YEAR> by <AUTHOR NAME> <AUTHOR E-MAIL ADDRESS>
-[other author/contributor lines as appropriate]
+Written in 2020 by <James Santucci> <jsantucci@azavea.com>
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
 and neighboring rights to this template to the public domain worldwide.
