@@ -11,6 +11,7 @@ val cliDependencies = List(
   "com.monovore"                 %% "decline-effect"                 % DeclineVersion,
   "com.rasterfoundry"            %% "datamodel"                      % RasterFoundryVersion,
   "com.softwaremill.sttp.client" %% "async-http-client-backend-cats" % SttpVersion,
+  "com.softwaremill.sttp.client" %% "circe"                          % SttpVersion,
   "com.softwaremill.sttp.client" %% "core"                           % SttpVersion
 )
 
