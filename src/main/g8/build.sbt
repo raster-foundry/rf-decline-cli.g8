@@ -3,16 +3,21 @@ ThisBuild / organization := "$organization$"
 ThisBuild / scalaVersion := "$scalaVersion$"
 
 val DeclineVersion       = "$declineVersion$"
+val NewtypeVersion       = "$newtypeVersion"
 val RasterFoundryVersion = "$rfVersion$"
+val RefinedVersion       = "$refinedVersion"
 val SttpVersion          = "$sttpVersion$"
 
 val cliDependencies = List(
   "com.monovore"                 %% "decline"                        % DeclineVersion,
   "com.monovore"                 %% "decline-effect"                 % DeclineVersion,
+  "com.monovore"                 %% "decline-refined"                % DeclineVersion,
   "com.rasterfoundry"            %% "datamodel"                      % RasterFoundryVersion,
   "com.softwaremill.sttp.client" %% "async-http-client-backend-cats" % SttpVersion,
   "com.softwaremill.sttp.client" %% "circe"                          % SttpVersion,
-  "com.softwaremill.sttp.client" %% "core"                           % SttpVersion
+  "com.softwaremill.sttp.client" %% "core"                           % SttpVersion,
+  "eu.timepit"                   %% "refined"                        % RefinedVersion,
+  "io.estatico"                  %% "newtype"                        % NewtypeVersion
 )
 
 lazy val cli = (project in file("./cli"))
